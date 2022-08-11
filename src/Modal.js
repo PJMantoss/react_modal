@@ -15,7 +15,7 @@ const Modal = ({open}) => {
                     <p>for your first trade?</p>
                 </div>
                 <div className='btnContainer'>
-                    <button ></button>
+                    <button className='btnPrimary'></button>
                 </div>
             </div>
         </div>
