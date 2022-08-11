@@ -57,3 +57,7 @@
   padding: 1rem;
 }
 
+.btnContainer > button {
+  border: 0;
+}
+
