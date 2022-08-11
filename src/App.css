@@ -32,6 +32,10 @@
   object-fit: cover;
 }
 
+.modalRight{
+  width: 100%;
+}
+
 .closeBtn{
   cursor: pointer;
 }
