@@ -13,7 +13,8 @@ const Modal = ({open}) => {
 
                 <p 
                     onClick={handleClose} 
-                    className='closeBtn'>X</p>
+                    className='closeBtn'
+                >X</p>
 
                 <div className='content'>
                     <p>Do you want a </p>
