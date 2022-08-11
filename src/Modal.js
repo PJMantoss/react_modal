@@ -8,7 +8,7 @@ const Modal = ({open}) => {
         <div className='modalContainer'>
 
             <img src={mickey} alt='mickey mouse' />
-            
+
             <div className='modalRight'>
                 <p className='closeBtn'>X</p>
                 <div className='content'>
@@ -25,6 +25,7 @@ const Modal = ({open}) => {
                     </button>
                 </div>
             </div>
+            
         </div>
     </div>
   )
