@@ -9,10 +9,10 @@ const Modal = ({open}) => {
     }
 
   return (
-    <div className='overlay'>
+    <div className='overlay' onClick={handleClose}>
         <div 
             className='modalContainer'
-            onClick={handleClose()}
+            onClick={handleClose}
         >
 
             <img src={mickey} alt='mickey mouse' />
