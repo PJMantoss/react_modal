@@ -16,10 +16,10 @@ const Modal = ({open}) => {
                 </div>
                 <div className='btnContainer'>
                     <button className='btnPrimary'>
-                        <span className='bold'></span>
+                        <span className='bold'>YES</span>
                     </button>
                     <button className='btnOutline'>
-                        <span className='bold'></span>
+                        <span className='bold'>NO</span>
                     </button>
                 </div>
             </div>
