@@ -10,9 +10,9 @@ const Modal = ({open}) => {
             <div className='modalRight'>
                 <p className='closeBtn'>X</p>
                 <div className='content'>
-                    <p></p>
-                    <h1></h1>
-                    <p></p>
+                    <p>Do you want a </p>
+                    <h1>$50 credit</h1>
+                    <p>for your first trade</p>
                 </div>
             </div>
         </div>
