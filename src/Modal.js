@@ -5,7 +5,7 @@ const Modal = ({open}) => {
   return (
     <div className='overlay'>
         <div className='modalContainer'>
-            <img src={mickey} alt='' />
+            <img src={mickey} alt='mickey mouse' />
         </div>
     </div>
   )
