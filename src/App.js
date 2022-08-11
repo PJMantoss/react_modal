@@ -18,7 +18,9 @@ function App() {
       <button 
         className='modalBtn' 
         onClick={handleClick}
-      >Modal</button>
+      >
+        Modal
+      </button>
       <Modal 
         open={openModal} 
         handleClose={handleClose} 
