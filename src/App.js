@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <button>Modal</button>
+      <button onClick={handleClick}>Modal</button>
       <Modal open={openModal} />
     </div>
   );
