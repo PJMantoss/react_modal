@@ -6,7 +6,9 @@ const Modal = ({open}) => {
   return (
     <div className='overlay'>
         <div className='modalContainer'>
+
             <img src={mickey} alt='mickey mouse' />
+            
             <div className='modalRight'>
                 <p className='closeBtn'>X</p>
                 <div className='content'>
