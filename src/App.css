@@ -42,3 +42,8 @@
   right: 8px;
   cursor: pointer;
 }
+
+.content{
+  display: flex;
+  flex-direction: column;
+}
