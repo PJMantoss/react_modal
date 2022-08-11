@@ -9,7 +9,11 @@ const Modal = ({open}) => {
             <img src={mickey} alt='mickey mouse' />
             <div className='modalRight'>
                 <p className='closeBtn'>X</p>
-                <div className='content'></div>
+                <div className='content'>
+                    <p></p>
+                    <h1></h1>
+                    <p></p>
+                </div>
             </div>
         </div>
     </div>
