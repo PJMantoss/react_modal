@@ -27,7 +27,8 @@
 }
 
 .modalContainer > img {
-  width: 40%;
+  width: 250px;
+  object-fit: cover;
 }
 
 .closeBtn{
