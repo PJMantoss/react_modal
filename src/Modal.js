@@ -7,6 +7,10 @@ const Modal = ({open}) => {
     <div className='overlay'>
         <div className='modalContainer'>
             <img src={mickey} alt='mickey mouse' />
+            <div className='modalRight'>
+                <p className='closeBtn'>X</p>
+                <div></div>
+            </div>
         </div>
     </div>
   )
