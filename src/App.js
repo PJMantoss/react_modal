@@ -9,6 +9,8 @@ function App() {
     setOpenModal(true);
   };
 
+  const handleClose = () => {};
+
   return (
     <div className="App">
       <button onClick={handleClick}>Modal</button>
