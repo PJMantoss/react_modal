@@ -26,6 +26,10 @@
   box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.75);
 }
 
+.modalContainer > img {
+  width: 40%;
+}
+
 .closeBtn{
   cursor: pointer;
 }
