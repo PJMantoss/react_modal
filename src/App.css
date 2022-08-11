@@ -15,6 +15,11 @@
   background: rgba(0, 0, 0, 0.5);
 }
 
+.modalContainer{
+  display: flex;
+  max-width: 600px;
+}
+
 .closeBtn{
   cursor: pointer;
 }
