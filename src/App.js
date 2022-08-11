@@ -5,7 +5,9 @@ import './App.css';
 function App() {
   const [openModal, setOpenModal] = useState(false);
 
-  const handleClick = () => {};
+  const handleClick = () => {
+    setOpenModal(true);
+  };
 
   return (
     <div className="App">
