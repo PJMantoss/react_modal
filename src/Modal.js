@@ -18,6 +18,9 @@ const Modal = ({open}) => {
                     <button className='btnPrimary'>
                         <span className='bold'></span>
                     </button>
+                    <button className='btnPrimary'>
+                        <span className='bold'></span>
+                    </button>
                 </div>
             </div>
         </div>
