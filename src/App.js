@@ -18,7 +18,8 @@ function App() {
       <button onClick={handleClick}>Modal</button>
       <Modal 
         open={openModal} 
-        handleClose={handleClose} />
+        handleClose={handleClose} 
+      />
     </div>
   );
 }
