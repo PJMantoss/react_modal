@@ -10,12 +10,15 @@ const Modal = ({open}) => {
             <img src={mickey} alt='mickey mouse' />
 
             <div className='modalRight'>
+                
                 <p className='closeBtn'>X</p>
+
                 <div className='content'>
                     <p>Do you want a </p>
                     <h1>$50 CREDIT</h1>
                     <p>for your first trade?</p>
                 </div>
+
                 <div className='btnContainer'>
                     <button className='btnPrimary'>
                         <span className='bold'>YES</span> I love FX
@@ -24,8 +27,9 @@ const Modal = ({open}) => {
                         <span className='bold'>NO</span> Thanks
                     </button>
                 </div>
+
             </div>
-            
+
         </div>
     </div>
   )
