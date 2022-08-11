@@ -16,10 +16,10 @@ const Modal = ({open}) => {
                 </div>
                 <div className='btnContainer'>
                     <button className='btnPrimary'>
-                        <span className='bold'>YES</span>
+                        <span className='bold'>YES</span> I love FX
                     </button>
                     <button className='btnOutline'>
-                        <span className='bold'>NO</span>
+                        <span className='bold'>NO</span> Thanks
                     </button>
                 </div>
             </div>
