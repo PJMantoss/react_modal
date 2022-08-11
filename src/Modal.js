@@ -2,6 +2,7 @@ import React from 'react';
 import mickey from './mickey.jpg';
 
 const Modal = ({open}) => {
+    if(!open) return null;
   return (
     <div className='overlay'>
         <div className='modalContainer'>
