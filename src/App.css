@@ -88,4 +88,8 @@
     left: 0;
     transform: none;
   }
+
+  .modalContainer > img {
+    width: 100%;
+  }
 }
