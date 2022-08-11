@@ -10,7 +10,7 @@ const Modal = ({open}) => {
             <img src={mickey} alt='mickey mouse' />
 
             <div className='modalRight'>
-                
+
                 <p className='closeBtn'>X</p>
 
                 <div className='content'>
@@ -20,12 +20,15 @@ const Modal = ({open}) => {
                 </div>
 
                 <div className='btnContainer'>
+
                     <button className='btnPrimary'>
                         <span className='bold'>YES</span> I love FX
                     </button>
+
                     <button className='btnOutline'>
                         <span className='bold'>NO</span> Thanks
                     </button>
+                    
                 </div>
 
             </div>
