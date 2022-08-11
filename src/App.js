@@ -9,7 +9,9 @@ function App() {
     setOpenModal(true);
   };
 
-  const handleClose = () => {};
+  const handleClose = () => {
+    setOpenModal(false);
+  };
 
   return (
     <div className="App">
