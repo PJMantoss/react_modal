@@ -39,7 +39,7 @@
 .closeBtn{
   position: fixed;
   top: 5px;
-  right: 8px;
+  right: 0.5rem;
   cursor: pointer;
 }
 
@@ -56,3 +56,4 @@
   display: flex;
   padding: 1rem;
 }
+
