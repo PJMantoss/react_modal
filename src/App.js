@@ -3,8 +3,8 @@ import Modal from './Modal';
 import './App.css';
 
 function App() {
-  const [] = useState('');
-  
+  const [openModal, setOpenModal] = useState(false);
+
   return (
     <div className="App">
       <Modal />
