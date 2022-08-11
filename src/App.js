@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <Modal />
+      <Modal open={openModal} />
     </div>
   );
 }
