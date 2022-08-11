@@ -1,7 +1,7 @@
 import React from 'react';
 import mickey from './mickey.jpg';
 
-const Modal = ({open, handleClose}) => {
+const Modal = ({open}) => {
     if(!open) return null;
   return (
     <div className='overlay'>
