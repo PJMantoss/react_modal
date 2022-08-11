@@ -58,6 +58,9 @@
 }
 
 .btnContainer > button {
+  width: 100%;
+  margin: 0.5rem;
+  padding: 1rem;
   border: 0;
 }
 
