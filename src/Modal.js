@@ -1,10 +1,10 @@
 import React from 'react';
 import mickey from './mickey.jpg';
 
-const Modal = ({open}) => {
+const Modal = ({open,handleClose}) => {
     if(!open) return null;
 
-    const handleClose = e => {
+    const handleModalClose = e => {
         e.stopPropagation();
     }
 
@@ -12,7 +12,7 @@ const Modal = ({open}) => {
     <div className='overlay' onClick={handleClose}>
         <div 
             className='modalContainer'
-            onClick={handleClose}
+            onClick={handleModalClose}
         >
 
             <img src={mickey} alt='mickey mouse' />
