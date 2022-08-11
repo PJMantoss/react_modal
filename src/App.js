@@ -5,6 +5,8 @@ import './App.css';
 function App() {
   const [openModal, setOpenModal] = useState(false);
 
+  const handleClick = () => {};
+
   return (
     <div className="App">
       <button onClick={handleClick}>Modal</button>
