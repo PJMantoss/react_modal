@@ -11,7 +11,8 @@ const Modal = ({open}) => {
 
             <div className='modalRight'>
 
-                <p className='closeBtn'>X</p>
+                <p 
+                    onClick={handleClose} className='closeBtn'>X</p>
 
                 <div className='content'>
                     <p>Do you want a </p>
@@ -28,7 +29,7 @@ const Modal = ({open}) => {
                     <button className='btnOutline'>
                         <span className='bold'>NO</span> Thanks
                     </button>
-                    
+
                 </div>
 
             </div>
