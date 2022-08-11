@@ -15,7 +15,8 @@ const Modal = ({open}) => {
                     onClick={handleClose} 
                     className='closeBtn'
                 >
-                    X</p>
+                    X
+                </p>
 
                 <div className='content'>
                     <p>Do you want a </p>
