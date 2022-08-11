@@ -12,7 +12,7 @@ const Modal = ({open}) => {
                 <div className='content'>
                     <p>Do you want a </p>
                     <h1>$50 credit</h1>
-                    <p>for your first trade</p>
+                    <p>for your first trade?</p>
                 </div>
             </div>
         </div>
