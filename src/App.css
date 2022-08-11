@@ -64,6 +64,7 @@
   border: 0;
   border-radius: 5px;
   color: #fff;
+  cursor: pointer;
 }
 
 .btnPrimary{
