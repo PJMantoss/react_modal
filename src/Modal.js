@@ -14,6 +14,9 @@ const Modal = ({open}) => {
                     <h1>$50 CREDIT</h1>
                     <p>for your first trade?</p>
                 </div>
+                <div className='btnContainer'>
+                    <button ></button>
+                </div>
             </div>
         </div>
     </div>
