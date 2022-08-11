@@ -3,9 +3,17 @@ import mickey from './mickey.jpg';
 
 const Modal = ({open}) => {
     if(!open) return null;
+
+    const handleClose = e => {
+        e.stopPropagation();
+    }
+
   return (
     <div className='overlay'>
-        <div className='modalContainer'>
+        <div 
+            className='modalContainer'
+            onClick={handleClose}
+        >
 
             <img src={mickey} alt='mickey mouse' />
 
