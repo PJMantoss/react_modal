@@ -15,7 +15,10 @@ function App() {
 
   return (
     <div className="App">
-      <button className='modalBtn' onClick={handleClick}>Modal</button>
+      <button 
+        className='modalBtn' 
+        onClick={handleClick}
+      >Modal</button>
       <Modal 
         open={openModal} 
         handleClose={handleClose} 
