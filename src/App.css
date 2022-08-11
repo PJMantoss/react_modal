@@ -52,4 +52,7 @@
   padding: 1rem 2rem;
 }
 
-.btnContainer{}
+.btnContainer{
+  display: flex;
+  padding: 1rem;
+}
