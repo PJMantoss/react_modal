@@ -29,6 +29,7 @@
   box-shadow: 0 0 1.1rem 0 rgba(0, 0, 0, 0.75);
 }
 
+/* Mickey Mouse Image */
 .modalContainer > img {
   width: 250px;
   object-fit: cover;
