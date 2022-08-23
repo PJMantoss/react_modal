@@ -16,6 +16,7 @@
   background: rgba(0, 0, 0, 0.5);
 }
 
+/* Modal Container */
 .modalContainer{
   display: flex;
   max-width: 600px;
