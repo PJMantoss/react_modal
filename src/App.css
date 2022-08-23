@@ -39,6 +39,7 @@
   width: 100%;
 }
 
+/* Button for closing modal */
 .closeBtn{
   position: fixed;
   top: 0.5rem;
